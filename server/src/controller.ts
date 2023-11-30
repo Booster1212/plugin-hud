@@ -1,6 +1,6 @@
 import * as alt from 'alt-server';
-import * as Athena from '@AthenaServer/api';
-import { HUD_EVENTS } from '@AthenaPlugins/plugin-hud/shared/events';
+import * as Athena from '@AthenaServer/api/index.js';
+import { HUD_EVENTS } from '@AthenaPlugins/plugin-hud/shared/events.js';
 
 export class HUDController {
     static updateHUD(player: alt.Player) {

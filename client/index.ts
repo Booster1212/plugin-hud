@@ -1,9 +1,9 @@
 import * as alt from 'alt-client';
 import * as native from 'natives';
 
-import * as AthenaClient from '@AthenaClient/api';
-import { onTicksStart } from '@AthenaClient/events/onTicksStart';
-import { HUD_EVENTS } from '../shared/events';
+import * as AthenaClient from '@AthenaClient/api/index.js';
+import { onTicksStart } from '@AthenaClient/events/onTicksStart.js';
+import { HUD_EVENTS } from '../shared/events.js';
 
 const isMetric = native.getProfileSetting(227);
 let speedCalc: string;

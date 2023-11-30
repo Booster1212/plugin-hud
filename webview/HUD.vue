@@ -58,7 +58,7 @@
 <script lang="ts" setup>
 import { onMounted, ref } from 'vue';
 import WebViewEvents from '@utility/webViewEvents';
-import { HUD_EVENTS } from '../shared/events';
+import { HUD_EVENTS } from '../shared/events.js';
 import { HUDConfig } from '../shared/config';
 import Icon from '@/components/Icon.vue';
 import { Character } from '@AthenaShared/interfaces/character';

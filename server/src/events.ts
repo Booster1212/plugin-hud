@@ -1,9 +1,9 @@
-import * as Athena from '@AthenaServer/api';
+import * as Athena from '@AthenaServer/api/index.js';
 import * as alt from 'alt-server';
 
-import { HUDConfig } from '@AthenaPlugins/plugin-hud/shared/config';
-import { HUDController } from './controller';
-import { HUD_EVENTS } from '@AthenaPlugins/plugin-hud/shared/events';
+import { HUDConfig } from '@AthenaPlugins/plugin-hud/shared/config.js';
+import { HUDController } from './controller.js';
+import { HUD_EVENTS } from '@AthenaPlugins/plugin-hud/shared/events.js';
 
 alt.onClient(HUD_EVENTS.REQUEST_DATA, (player: alt.Player) => {
     HUDController.updateHUD(player);

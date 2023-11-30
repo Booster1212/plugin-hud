@@ -1,7 +1,7 @@
 import * as alt from 'alt-server';
-import * as Athena from '@AthenaServer/api';
+import * as Athena from '@AthenaServer/api/index.js';
 
-import { HUDController } from './controller';
+import { HUDController } from './controller.js';
 
 const HUDFunctions = {
     updateHUD,
